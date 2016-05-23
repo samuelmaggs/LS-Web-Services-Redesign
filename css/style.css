@@ -1,0 +1,47 @@
+body {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+}
+
+nav {
+  margin: auto;
+  width: auto;
+}
+
+nav ul {
+  display: inline;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  border-bottom: solid 2px #B20004;
+}
+
+#about {
+  overflow: auto;
+}
+
+#about .left-col {
+  width: 66%;
+}
+
+#about .right-col {
+  width: 34%;
+  background: #B20004;
+  color: white;
+}
+
+.left-col {
+  float: left;
+}
+
+.right-col {
+  float: right;
+}
