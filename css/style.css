@@ -1,16 +1,23 @@
+html {
+  font-family: "bebas-neue",sans-serif;
+}
+
 body {
-  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   width: 100%;
   background: #fff;
-  padding: 10px;
+  padding: 20px 0 20px 0;
 }
 
 nav {
   margin: auto;
   width: auto;
+  text-align: center;
+  font-size: 25px;
 }
 
 nav ul {
@@ -22,6 +29,7 @@ nav ul li {
   display: inline-block;
   padding: 10px;
   border-bottom: solid 2px #B20004;
+  margin: 15px;
 }
 
 #about {
@@ -29,11 +37,17 @@ nav ul li {
 }
 
 #about .left-col {
-  width: 66%;
+  width: 63%;
+  height: 306px;
+  background-image: url("http://itsthe.space/Projects/ls-web/imgs/computer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #about .right-col {
-  width: 34%;
+  width: 34.9%;
+  padding: 15px;
   background: #B20004;
   color: white;
 }
@@ -44,4 +58,15 @@ nav ul li {
 
 .right-col {
   float: right;
+}
+
+#services {
+  background: #D8D8D8;
+  overflow: auto;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  padding: 10px;
 }

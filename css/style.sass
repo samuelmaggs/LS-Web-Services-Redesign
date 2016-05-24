@@ -1,16 +1,23 @@
 $lsred: #B20004
 
+html
+  font-family: "bebas-neue",sans-serif
+
+
 body
-  width: 100%
+  margin: 0
+  padding: 0
 
 header
   width: 100%
   background: #fff
-  padding: 10px
+  padding: 20px 0 20px 0
 
 nav
   margin: auto
   width: auto
+  text-align: center
+  font-size: 25px
   ul
     display: inline
     list-style: none
@@ -18,13 +25,20 @@ nav
       display: inline-block
       padding: 10px
       border-bottom: solid 2px $lsred
+      margin: 15px
 
 #about
   overflow: auto
   .left-col
-    width: 66%
+    width: 63%
+    height: 306px
+    background-image: url("http://itsthe.space/Projects/ls-web/imgs/computer.jpg")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
   .right-col
-    width: 34%
+    width: 34.9%
+    padding: 15px
     background: $lsred
     color: white
 
@@ -33,3 +47,14 @@ nav
 
 .right-col
   float: right
+
+#services
+  background: #D8D8D8
+  overflow: auto
+
+
+
+footer
+  background: #222
+  color: #fff
+  padding: 10px

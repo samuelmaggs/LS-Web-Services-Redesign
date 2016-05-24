@@ -7,13 +7,14 @@
   <meta name="description" content="LS Web Services" />
   <link rel="stylesheet" href="css/reset.css" charset="utf-8">
   <link rel="stylesheet" href="css/style.css" charset="utf-8">
+  <script src="https://use.typekit.net/mlp8whf.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 
 <?php include 'header.php'; ?>
 
 <div id="about" class="layer">
   <div class="left-col">
-    <img src="" alt="Computer on desk" title="LS Web Services at work"/>
   </div>
   <div class="right-col">
     <h1>About Us</h1>
